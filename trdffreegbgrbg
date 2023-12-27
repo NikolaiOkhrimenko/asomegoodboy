@@ -1,0 +1,2 @@
+using HorizonSideRobots
+robot = BorderRobot(ChessRobot(Robot(animate = true),true))
