@@ -115,8 +115,8 @@ function markline(robot,side)
 end
 
 function markall!(robot,side1,side2)
-    a = side1
-    while !(isborder(robot,a) && isborder(robot,side2))
+    
+    while !(isborder(robot,side1) && isborder(robot,side2))
         while !isborder(robot,side1)
             markline(robot,side1)
         end

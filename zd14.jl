@@ -10,3 +10,4 @@ function zd14(robot)
     move!(robot, back_path)
 end
 
+zd14(robot)

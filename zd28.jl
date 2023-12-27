@@ -17,7 +17,7 @@ function fib(n)
 end
 
 function rek(n)
-    if n <= 1
+     if n <= 1
         return n
     else
         return (rek(n-1) + rek(n-2))
@@ -35,3 +35,6 @@ function fibonacci_memo(n,memo=Dict())
         return memo[n]
     end
 end
+fib(6)
+rek(6)
+fibonacci_memo(6)
